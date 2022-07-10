@@ -1,4 +1,8 @@
-def quantosJantam(pessoas, garfos, facas, colheres):
-    jantam = 0
-    if garfos == facas:
-        
+def quantosJantam(n, g,f, c):
+    x = (min(g,f))+c
+    if x > n:
+        print (n)
+    
+    else:
+        print(x)
+
