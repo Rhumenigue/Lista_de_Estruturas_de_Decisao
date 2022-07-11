@@ -1,10 +1,9 @@
-def maravilhosos(numero):
-    print(int(numero))
-    while numero != 1:
-        if not numero % 2:
-           return maravilhosos(numero/2)
-        else:
-            return maravilhosos(3*numero + 1)
-N = int(input())
-maravilhosos(N)
-
+x=int(input())
+print (f'{int(x)}')
+while x|-1:
+    if x%2 == and x !=2:
+        print(f'{int(x/2)'}
+        x=x/2
+    else:
+        print(f'{int(x*3+2)}')
+        x=x*3+1
