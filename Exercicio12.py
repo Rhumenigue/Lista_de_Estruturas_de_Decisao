@@ -7,5 +7,3 @@ def jogadas(a, b):
     else:
         jogadas=total+1
     print (jogadas)
-
-jogadas(13,42)
